@@ -7,5 +7,5 @@ export const listEmployees = () => {
 }
 
 export const createEmployee = (employee) => {
-    axios.post(REST_API_BASE_URL, employee);
+    return axios.post(REST_API_BASE_URL, employee);
 }
