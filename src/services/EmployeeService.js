@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = process.env.REST_API_BASE_URL;
+const REST_API_BASE_URL = process.env.REACT_APP_REST_API_BASE_URL;
 console.log('API URL:', process.env.REST_API_BASE_URL);
 
 
